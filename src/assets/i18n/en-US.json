@@ -1,0 +1,16 @@
+{
+  "Title": "Translation example",
+  "Intro": "Hello I am Arthur, I am 42 years old.",
+  "User Name" : "User Name",
+  "Email" : "Email",
+  "Phone" : "Phone",
+  "Auth" : "Roles",
+  "Users" : "Users",
+  "Employees" :"Employees",
+  "Leaves" : "Leaves",
+  "Username" : "UserName",
+  "Username is required" : "Username is required",
+  "Password" : "Password",
+  "Password is required" : "Password is required",
+  "Login" : "Login"
+}

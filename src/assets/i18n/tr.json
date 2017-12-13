@@ -1,0 +1,16 @@
+{
+  "Title": "translate örneği",
+  "Intro": "Selam",
+  "User Name" : "İsim Soy isim",
+  "Email" : "Mail Adresi",
+  "Phone" : "Telefon",
+  "Auth" : "Yetkiler",
+  "Users" : "Kullanıcılar",
+  "Employees" :"Çalışanlar",
+  "Leaves" : "Ayrılanlar",
+  "Username" : "Kullanıcı Adı",
+  "Username is required" : "Kullanıcı Adı Gerekli",
+  "Password" : "Şifre",
+  "Password is required" : "Şifre Gerekli",
+  "Login" : "Giriş"
+}

@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <table class="table table-bordered table-hover">
+        <caption>List of users</caption>
+        <thead>
+          <tr>
+            <th scope="col">{{'User Name' | translate}}</th>
+            <th scope="col">{{'Email' | translate}}</th>
+            <th scope="col">{{'Phone' | translate}}</th>
+            <th scope="col">{{'Auth' | translate}}</th>
+            <th scope="col">#</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of data">
+            <td>
+              <a [routerLink]="['edit', user.Id]">
+                {{user.UserName}}
+              </a>
+            </td>
+            <td>{{user.Email}}</td>
+            <td>{{user.PhoneNumber}}</td>
+            <td>
+              <ul>
+                <li *ngFor="let role of user.Roles">
+                  {{role.Name}}
+                </li>
+              </ul>
+            </td>
+            <td scope="row">
+              <button (click)="editClick(user)" class="btn btn-default">Edit</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- <div class="col-md-6 ">
+
+    </div> -->
+  </div>
+</div>

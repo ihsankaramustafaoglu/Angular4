@@ -1,0 +1,28 @@
+<ng2-slim-loading-bar></ng2-slim-loading-bar>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header col-sm-1">
+            <a class="navbar-brand" routerLink="dashboard">bilişimHR</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav col-sm-6">
+                <li class="active">
+                    <a routerLink="users">{{'Users' | translate}}</a>
+                </li>
+                <li>
+                    <a href="#">{{'Employees' | translate}}</a>
+                </li>
+                <li>
+                    <a href="#">{{'Leaves' | translate}}</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4">
+
+            <button (click)="switchLanguage('en-US')" class="btn btn-default pull-right">En</button>
+
+            <button (click)="switchLanguage('tr')" class="btn btn-default pull-right">Tr</button>
+        </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>
